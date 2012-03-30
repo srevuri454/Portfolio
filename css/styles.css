@@ -1,0 +1,131 @@
+body {
+	background-image: none;
+	background-color: #FAFAFA;
+	background-repeat: no-repeat;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+a { cursor: pointer; outline:none; text-decoration:none; }
+a:active, a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+a:link { text-decoration:none; }
+a:visited { text-decoration:none; }
+a img { border:0; }
+.heading {
+	color: #666;
+	font-size: xx-large;
+	font-weight: bold;
+	margin-left: 35px;
+	text-align: left;
+}
+#footer {
+	background-image: url(../photos/bg.png);
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.thumbnail {
+	border: solid 5px #FAFAFA;
+	border-color:transparent;
+	margin-bottom: 5px;
+	
+}
+a:hover img {
+	border:solid 5px #CCC;
+}
+.mediumH:hover {
+	color: #999;
+}
+
+
+#container {
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navigation {
+	font-size: 14px;
+	color: #666;
+	font-weight: bolder;
+	margin-left: 440px;
+}
+.smallH {
+	font-size: 13px;
+}
+.mediumH {
+	font-size: 16px;
+	font-weight: bold;
+	background-image: url(../photos/bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+
+.navigation1 {
+	font-size: 14px;
+	color: #666;
+	font-weight: bolder;
+}
+#content {
+	font-family: "Times New Roman", Times, serif;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../photos/bg.png);
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	background-position: center top;
+}
+#myName {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+}
+#thumbnailContainer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+.thumbnailRows {
+	position: relative;
+}
+.lable1 {
+	position: absolute;
+	left: 15px;
+	top: 25px;
+	background-color: #000;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	color: #FFF;
+	font-weight: bold;
+}
+.lable2 {
+	position: absolute;
+	left: 275px;
+	top: 25px;
+	background-color: #000;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	color: #FFF;
+	font-weight: bold;
+}
+.lable3{
+	position: absolute;
+	left: 540px;
+	top: 25px;
+	background-color: #000;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	color: #FFF;
+	font-weight: bold;
+}
+#current {
+	font-weight: lighter;
+}
+.wordIcon {
+	float: right;
+	margin-right: 20px;
+	border: solid 5px #FAFAFA;
+	border-color: transparent;
+}
